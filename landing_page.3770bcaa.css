@@ -11,6 +11,70 @@
   z-index: -1;
   height: 90vh;
 }
+/* .carousel {
+  position: absolute;
+  top: 40%;
+} */
+.leftArrow {
+  /* position: absolute;
+  left: 5px;
+  top: 45%;*/
+  height: 35px;
+  float: left;
+  background-color: peru;
+}
+.rightArrow {
+  /* position: absolute;
+  right: 20px;
+  height: 50px;*/
+  background-color: peru;
+  float: right;
+  height: 35px;
+}
+.chevron {
+  /* position: absolute;
+  left: 50%;
+  top: 87%; */
+  height: 50px;
+  display: block;
+  margin-left: 10px;
+}
+
+.carouselNChev {
+  z-index: 1;
+  /* border: 1px solid green; */
+  width: 25%;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+}
+
+/* media query for carousel n chev and arrows */
+@media (max-width: 750px) {
+  .carouselNChev {
+    top: 60%;
+  }
+}
+
+@media (max-width: 520px) {
+  .carouselNChev {
+    top: 45%;
+  }
+  .leftarrow {
+    position: absolute;
+    left: 5px;
+    top: 45%;
+    height: 35px;
+    background-color: white;
+  }
+  .rightarrow {
+    position: absolute;
+    right: 20px;
+    height: 50px;
+    background-color: black;
+    height: 35px;
+  }
+}
 
 .leftArrow:hover {
   cursor: pointer;
@@ -26,11 +90,38 @@
   top: 0px; */
   z-index: -1;
   width: 100%;
+  /* background-color: black; */
+  /* position: relative; */
+
   /* border: 1px solid red; */
 }
+
+.bannerImage {
+  width: 100%;
+  height: 90vh;
+  background: #ac9393;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+.bannerText {
+  width: 45%;
+  position: absolute;
+  top: 20%;
+  /* border: 1px solid black; */
+  right: 5%;
+  color: white;
+}
+.bannerText > p {
+  font-size: 45px;
+  line-height: 10px;
+  margin-left: 25%;
+}
+
 .MainMenuModal {
   width: 50%;
-  height: 450px;
+  /* height: 450px; */
+  min-width: 300px;
   position: -webkit-sticky; /* Safari */
   position: absolute;
   left: 25%;
@@ -162,6 +253,46 @@
   .oneDotThree,
   .oneDotFour {
     width: 50%;
+  }
+}
+
+/* media query for banner text */
+@media (max-width: 1308px) {
+  .bannerText > p {
+    margin-left: 5%;
+    /* color: red; */
+  }
+}
+@media (max-width: 982px) {
+  .bannerText > p {
+    margin-left: 5%;
+    /* color: red; */
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 770px) {
+  .bannerText > p {
+    margin-left: 5%;
+    /* color: red; */
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 637px) {
+  .bannerText > p {
+    margin-left: 5%;
+    /* color: red; */
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .bannerText > p {
+    margin-left: 5%;
+    /* color: red; */
+    font-size: 15px;
+    margin-top: -5%;
   }
 }
 
