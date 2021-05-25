@@ -35693,510 +35693,356 @@ function (_React$Component) {
 }(_react.default.Component);
 
 exports.default = Main_Menu_Modal;
-},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../images/close.png":"../images/close.png"}],"../js/carousel.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _reactDom = _interopRequireDefault(require("react-dom"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-var Carousel =
-/*#__PURE__*/
-function (_React$Component) {
-  _inherits(Carousel, _React$Component);
-
-  function Carousel(props) {
-    var _this;
-
-    _classCallCheck(this, Carousel);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Carousel).call(this, props));
-    _this.state = {
-      counter: _this.props.counter
-    };
-    return _this;
-  }
-
-  _createClass(Carousel, [{
-    key: "render",
-    value: function render() {
-      var arr = [_react.default.createElement("img", {
-        style: {
-          width: "25px",
-          height: "18px",
-          display: "inline-block",
-          position: "absolute",
-          left: "47%",
-          top: "80%"
-        },
-        src: require("../images/carouselDot.png")
-      }), _react.default.createElement("img", {
-        style: {
-          width: "25px",
-          height: "18px",
-          display: "inline-block",
-          position: "absolute",
-          left: "50%",
-          top: "80%"
-        },
-        src: require("../images/carouselDot_red.png")
-      }), _react.default.createElement("img", {
-        style: {
-          width: "25px",
-          height: "18px",
-          display: "inline-block",
-          position: "absolute",
-          left: "53%",
-          top: "80%"
-        },
-        src: require("../images/carouselDot.png")
-      }), _react.default.createElement("img", {
-        style: {
-          width: "25px",
-          height: "18px",
-          display: "inline-block",
-          position: "absolute",
-          left: "56%",
-          top: "80%"
-        },
-        src: require("../images/carouselDot.png")
-      })];
-      return this.props.counter;
-    }
-  }]);
-
-  return Carousel;
-}(_react.default.Component);
-
-exports.default = Carousel;
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","../images/carouselDot.png":"../images/carouselDot.png","../images/carouselDot_red.png":"../images/carouselDot_red.png"}],"../images/banner1.png":[function(require,module,exports) {
-module.exports = "/banner1.b1676357.png";
-},{}],"../images/banner2.png":[function(require,module,exports) {
-module.exports = "/banner2.9eb60816.png";
-},{}],"../images/banner3.png":[function(require,module,exports) {
-module.exports = "/banner3.c4944b84.png";
-},{}],"../images/banner4.png":[function(require,module,exports) {
-module.exports = "/banner4.5fec0ee6.png";
-},{}],"../images/banner5.png":[function(require,module,exports) {
-module.exports = "/banner5.a08fa9f5.png";
-},{}],"../js/banner.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _reactDom = _interopRequireDefault(require("react-dom"));
-
-var _carousel = _interopRequireDefault(require("./carousel"));
-
-require("../css/landing_page.css");
-
-require("../images/banner1.png");
-
-require("../images/banner2.png");
-
-require("../images/banner3.png");
-
-require("../images/banner4.png");
-
-require("../images/banner5.png");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-var Banner =
-/*#__PURE__*/
-function (_React$Component) {
-  _inherits(Banner, _React$Component);
-
-  function Banner(props) {
-    var _this;
-
-    _classCallCheck(this, Banner);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Banner).call(this, props));
-    _this.state = {
-      counter: 1,
-      // imgArr: [img1, img2, img3, img4],
-      clicked: false,
-      imgUrlArr: ["../images/banner1.png", "../images/banner2.png", "../images/banner3.png", "../images/banner5.png"],
-      timer: ""
-    };
-    _this.timeOutMethod = _this.timeOutMethod.bind(_assertThisInitialized(_this));
-    _this.click = _this.click.bind(_assertThisInitialized(_this));
-    _this.leftArrow = _this.leftArrow.bind(_assertThisInitialized(_this));
-    _this.rightArrow = _this.rightArrow.bind(_assertThisInitialized(_this));
-    return _this;
-  }
-
-  _createClass(Banner, [{
-    key: "timeOutMethod",
-    value: function timeOutMethod() {
-      if (this.state.counter == 4) {
-        // clearInterval(this.state.timer);
-        this.setState({
-          counter: 1
-        });
-        return;
-      }
-
-      this.setState({
-        counter: this.state.counter + 1
-      });
-    }
-  }, {
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      this.state.timer = setInterval(this.timeOutMethod, 3000);
-    }
-  }, {
-    key: "click",
-    value: function click() {
-      clearInterval(this.state.timer);
-      this.setState({
-        clicked: true
-      });
-    }
-  }, {
-    key: "leftArrow",
-    value: function leftArrow() {
-      if (this.state.counter == 1) {
-        this.setState({
-          counter: 4
-        });
-      } else {
-        this.setState({
-          counter: this.state.counter - 1
-        });
-      }
-    }
-  }, {
-    key: "rightArrow",
-    value: function rightArrow() {
-      if (this.state.counter == 4) {
-        this.setState({
-          counter: 1
-        });
-      } else {
-        this.setState({
-          counter: this.state.counter + 1
-        });
-      }
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _React$createElement;
-
-      var arr = [_react.default.createElement("img", {
-        style: {
-          width: "18px",
-          height: "15px",
-          display: "inline-block",
-          position: "absolute",
-          left: "47%",
-          top: "80%"
-        },
-        src: require("../images/carouselDot.png")
-      }), _react.default.createElement("img", {
-        style: {
-          width: "18px",
-          height: "18px",
-          display: "inline-block",
-          position: "absolute",
-          left: "50%",
-          top: "80%"
-        },
-        src: require("../images/carouselDot.png")
-      }), _react.default.createElement("img", {
-        style: {
-          width: "18px",
-          height: "18px",
-          display: "inline-block",
-          position: "absolute",
-          left: "53%",
-          top: "80%"
-        },
-        src: require("../images/carouselDot.png")
-      }), _react.default.createElement("img", {
-        style: {
-          width: "18px",
-          height: "18px",
-          display: "inline-block",
-          position: "absolute",
-          left: "56%",
-          top: "80%"
-        },
-        src: require("../images/carouselDot.png")
-      })];
-
-      if (this.state.counter == 1) {
-        var arr = [_react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "47%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot_red.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "50%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "53%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "56%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        })];
-      } else if (this.state.counter == 2) {
-        var arr = [_react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "47%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "50%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot_red.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "53%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "56%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        })];
-      } else if (this.state.counter == 3) {
-        var arr = [_react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "47%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "50%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "53%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot_red.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "56%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        })];
-      } else if (this.state.counter == 4) {
-        var arr = [_react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "47%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "50%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "53%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot.png")
-        }), _react.default.createElement("img", {
-          style: {
-            width: "20px",
-            height: "20px",
-            display: "inline-block",
-            position: "absolute",
-            left: "56%",
-            top: "80%"
-          },
-          src: require("../images/carouselDot_red.png")
-        })];
-      }
-
-      var disp = this.state.clicked ? "visible" : "hidden";
-      return _react.default.createElement(_react.default.Fragment, null, _react.default.createElement("img", {
-        onClick: this.click,
-        style: {
-          width: "100%"
-        },
-        src: require(this.state.imgUrlArr[this.state.counter - 1])
-      }), _react.default.createElement(_carousel.default, {
-        counter: arr
-      }), _react.default.createElement("img", {
-        onClick: this.leftArrow,
-        className: "leftArrow",
-        style: {
-          visibility: disp,
-          position: "absolute",
-          left: "5px",
-          top: "45%",
-          height: "35px",
-          backgroundColor: "white"
-        },
-        src: require("../images/arrow_back.png")
-      }), _react.default.createElement("img", (_React$createElement = {
-        onClick: this.rightArrow,
-        className: "rightArrow"
-      }, _defineProperty(_React$createElement, "onClick", this.rightArrow), _defineProperty(_React$createElement, "style", _defineProperty({
-        visibility: disp,
-        position: "absolute",
-        right: "20px",
-        top: "45%",
-        height: "50px",
-        backgroundColor: "white"
-      }, "height", "35px")), _defineProperty(_React$createElement, "src", require("../images/arrow_forward.png")), _React$createElement)), _react.default.createElement("img", {
-        style: {
-          position: "absolute",
-          left: "50%",
-          top: "87%",
-          height: "50px"
-        },
-        src: require("../images/chevron.png")
-      }));
-    }
-  }]);
-
-  return Banner;
-}(_react.default.Component); // ReactDOM.render(<Banner/>, document.getElementById("banner"))
-
-
-exports.default = Banner;
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./carousel":"../js/carousel.js","../css/landing_page.css":"../css/landing_page.css","../images/banner1.png":"../images/banner1.png","../images/banner2.png":"../images/banner2.png","../images/banner3.png":"../images/banner3.png","../images/banner4.png":"../images/banner4.png","../images/banner5.png":"../images/banner5.png","../images/carouselDot.png":"../images/carouselDot.png","../images/carouselDot_red.png":"../images/carouselDot_red.png","../images/arrow_back.png":"../images/arrow_back.png","../images/arrow_forward.png":"../images/arrow_forward.png","../images/chevron.png":"../images/chevron.png"}],"../js/test.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router-dom":"../node_modules/react-router-dom/esm/react-router-dom.js","../images/close.png":"../images/close.png"}],"../js/banner.js":[function(require,module,exports) {
+// import React from "react";
+// import react from "react";
+// import ReactDOM from "react-dom";
+// import Carousel from "./carousel";
+// import "../css/landing_page.css";
+// import "../images/banner1.png";
+// import "../images/banner2.png";
+// import "../images/banner3.png";
+// import "../images/banner4.png";
+// import "../images/banner5.png";
+// export default class Banner extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       counter: 1,
+//       // imgArr: [img1, img2, img3, img4],
+//       clicked: false,
+//       imgUrlArr: [
+//         "../images/banner1.png",
+//         "../images/banner2.png",
+//         "../images/banner3.png",
+//         "../images/banner5.png",
+//       ],
+//       timer: "",
+//     };
+//     this.timeOutMethod = this.timeOutMethod.bind(this);
+//     this.click = this.click.bind(this);
+//     this.leftArrow = this.leftArrow.bind(this);
+//     this.rightArrow = this.rightArrow.bind(this);
+//   }
+//   timeOutMethod() {
+//     if (this.state.counter == 4) {
+//       // clearInterval(this.state.timer);
+//       this.setState({ counter: 1 });
+//       return;
+//     }
+//     this.setState({
+//       counter: this.state.counter + 1,
+//     });
+//   }
+//   componentDidMount() {
+//     this.state.timer = setInterval(this.timeOutMethod, 3000);
+//   }
+//   click() {
+//     clearInterval(this.state.timer);
+//     this.setState({ clicked: true });
+//   }
+//   leftArrow() {
+//     if (this.state.counter == 1) {
+//       this.setState({ counter: 4 });
+//     } else {
+//       this.setState({ counter: this.state.counter - 1 });
+//     }
+//   }
+//   rightArrow() {
+//     if (this.state.counter == 4) {
+//       this.setState({ counter: 1 });
+//     } else {
+//       this.setState({ counter: this.state.counter + 1 });
+//     }
+//   }
+//   render() {
+//     var arr = [
+//       <img
+//         style={{
+//           width: "18px",
+//           height: "15px",
+//           display: "inline-block",
+//           position: "absolute",
+//           left: "47%",
+//           top: "80%",
+//         }}
+//         src={require("../images/carouselDot.png")}
+//       ></img>,
+//       <img
+//         style={{
+//           width: "18px",
+//           height: "18px",
+//           display: "inline-block",
+//           position: "absolute",
+//           left: "50%",
+//           top: "80%",
+//         }}
+//         src={require("../images/carouselDot.png")}
+//       ></img>,
+//       <img
+//         style={{
+//           width: "18px",
+//           height: "18px",
+//           display: "inline-block",
+//           position: "absolute",
+//           left: "53%",
+//           top: "80%",
+//         }}
+//         src={require("../images/carouselDot.png")}
+//       ></img>,
+//       <img
+//         style={{
+//           width: "18px",
+//           height: "18px",
+//           display: "inline-block",
+//           position: "absolute",
+//           left: "56%",
+//           top: "80%",
+//         }}
+//         src={require("../images/carouselDot.png")}
+//       ></img>,
+//     ];
+//     if (this.state.counter == 1) {
+//       var arr = [
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "47%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot_red.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "50%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "53%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "56%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//       ];
+//     } else if (this.state.counter == 2) {
+//       var arr = [
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "47%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "50%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot_red.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "53%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "56%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//       ];
+//     } else if (this.state.counter == 3) {
+//       var arr = [
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "47%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "50%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "53%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot_red.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "56%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//       ];
+//     } else if (this.state.counter == 4) {
+//       var arr = [
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "47%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "50%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "53%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot.png")}
+//         ></img>,
+//         <img
+//           style={{
+//             width: "20px",
+//             height: "20px",
+//             display: "inline-block",
+//             position: "absolute",
+//             left: "56%",
+//             top: "80%",
+//           }}
+//           src={require("../images/carouselDot_red.png")}
+//         ></img>,
+//       ];
+//     }
+//     var disp = this.state.clicked ? "visible" : "hidden";
+//     return (
+//       <React.Fragment>
+//         <img
+//           onClick={this.click}
+//           style={{ width: "100%" }}
+//           src={require(this.state.imgUrlArr[this.state.counter - 1])}
+//         ></img>
+//         <Carousel counter={arr} />
+//         <img
+//           onClick={this.leftArrow}
+//           className="leftArrow"
+//           style={{
+//             visibility: disp,
+//             position: "absolute",
+//             left: "5px",
+//             top: "45%",
+//             height: "35px",
+//             backgroundColor: "white",
+//           }}
+//           src={require("../images/arrow_back.png")}
+//         ></img>
+//         <img
+//           onClick={this.rightArrow}
+//           className="rightArrow"
+//           onClick={this.rightArrow}
+//           style={{
+//             visibility: disp,
+//             position: "absolute",
+//             right: "20px",
+//             top: "45%",
+//             height: "50px",
+//             backgroundColor: "white",
+//             height: "35px",
+//           }}
+//           src={require("../images/arrow_forward.png")}
+//         ></img>
+//         <img
+//           style={{
+//             position: "absolute",
+//             left: "50%",
+//             top: "87%",
+//             height: "50px",
+//           }}
+//           src={require("../images/chevron.png")}
+//         ></img>
+//       </React.Fragment>
+//     );
+//   }
+// }
+// // ReactDOM.render(<Banner/>, document.getElementById("banner"))
+},{}],"../js/test.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43206,7 +43052,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53621" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53381" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
