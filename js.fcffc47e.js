@@ -36463,8 +36463,8 @@ exports.default = LandingPageContent;
 module.exports = "/AboutUsBanner.3c9ab8a0.png";
 },{}],"../images/AboutUsBlurb.png":[function(require,module,exports) {
 module.exports = "/AboutUsBlurb.31923f82.png";
-},{}],"../images/businessmen.jpg":[function(require,module,exports) {
-module.exports = "/businessmen.7b29b0e1.jpg";
+},{}],"../images/software-development.jpg":[function(require,module,exports) {
+module.exports = "/software-development.6ec862ff.jpg";
 },{}],"../images/DoitRightOne.jpg":[function(require,module,exports) {
 module.exports = "/DoitRightOne.5d54e164.jpg";
 },{}],"../js/aboutus.js":[function(require,module,exports) {
@@ -36483,7 +36483,7 @@ var _AboutUsBanner = _interopRequireDefault(require("../images/AboutUsBanner.png
 
 var _AboutUsBlurb = _interopRequireDefault(require("../images/AboutUsBlurb.png"));
 
-var _businessmen = _interopRequireDefault(require("../images/businessmen.jpg"));
+var _softwareDevelopment = _interopRequireDefault(require("../images/software-development.jpg"));
 
 var _DoitRightOne = _interopRequireDefault(require("../images/DoitRightOne.jpg"));
 
@@ -36574,7 +36574,7 @@ function (_React$Component) {
       }, _react.default.createElement("h1", null, "Strong Leadership"), _react.default.createElement("p", null, "As our leaders have a stronghold on almost every technology present today, the clients can expect avant-garde solutions that are reliable, robust, and help with rejuvenating business performance. Each project we undertake aims to offer a good ROI, visible results, and customized specifications as per your requirements.", " "), _react.default.createElement("p", null, "Passion drives every team member at MAF Group. We work together as a unit on learning new technologies and implementing them seamlessly to deliver flawless solutions that work for the clients. Each MAF Group team member is awe-inspiring, brilliant, creative, dynamic, efficient, and fearless.", " "), _react.default.createElement("p", null, "We grow every minute of every day and ensure client satisfaction by delivering better than expected results.", " ")), _react.default.createElement("div", {
         className: "StrongLeadershipFlexTwo"
       }, _react.default.createElement("img", {
-        src: _businessmen.default,
+        src: _softwareDevelopment.default,
         style: {
           maxHeight: "100%",
           maxWidth: "100%",
@@ -36601,7 +36601,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 exports.default = AboutUs;
-},{"react":"../node_modules/react/index.js","./footer":"../js/footer.js","../images/AboutUsBanner.png":"../images/AboutUsBanner.png","../images/AboutUsBlurb.png":"../images/AboutUsBlurb.png","../images/businessmen.jpg":"../images/businessmen.jpg","../images/DoitRightOne.jpg":"../images/DoitRightOne.jpg"}],"../images/triangle1.jpg":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./footer":"../js/footer.js","../images/AboutUsBanner.png":"../images/AboutUsBanner.png","../images/AboutUsBlurb.png":"../images/AboutUsBlurb.png","../images/software-development.jpg":"../images/software-development.jpg","../images/DoitRightOne.jpg":"../images/DoitRightOne.jpg"}],"../images/triangle1.jpg":[function(require,module,exports) {
 module.exports = "/triangle1.d158ea14.jpg";
 },{}],"../images/cloudautomationbanner.png":[function(require,module,exports) {
 module.exports = "/cloudautomationbanner.394ff4a5.png";
@@ -43518,7 +43518,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51045" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52733" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
