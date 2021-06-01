@@ -36587,7 +36587,7 @@ function (_React$Component) {
       }, _react.default.createElement("div", {
         className: "ExpertiseinDiffAreasFlexOne"
       }, _react.default.createElement("h2", null, "Expertise in Different Areas"), _react.default.createElement("p", null, "We have been serving organizations from different industries for a few years now. You can count on us to map your needs and ensure your business growth according to your industry-specific needs.", " "), _react.default.createElement("h2", null, "Projects Delivered"), _react.default.createElement("p", null, "For us, success lies in helping the clients achieve what they want and expect from us. You can check our exceptional track record to see how we have helped businesses streamline their operations and attain better growth.", " "), _react.default.createElement("h2", null, "We Aim for Success"), _react.default.createElement("p", null, "We take on every project as a challenge and deliver our best time and again. The numbers speak for themselves. Head to our case studies section to know how we have helped brands achieve success.", " "), _react.default.createElement("h2", null, "Experienced and Qualified Team "), _react.default.createElement("p", null, "Over the years, we have built a strong team by ensuring we hire the best minds, most qualified and experienced professionals, and the top tech enthusiasts who can add value for our clients.", " "), _react.default.createElement("p", null, "Talk to us about your pain points and allow us to effectively use our friendly expertise to build solutions that promote and sustain business growth seamlessly. Get in touch to take your business to the next level of success!")), _react.default.createElement("div", {
-        className: ".ExpertiseinDiffAreasFlexTwo"
+        className: "ExpertiseinDiffAreasFlexTwo"
       }, _react.default.createElement("img", {
         src: _DoitRightOne.default,
         style: _defineProperty({
@@ -43518,7 +43518,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50710" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51045" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
